@@ -163,7 +163,7 @@ function viewTodaysFortune() {
 
 // Share fortune to clipboard
 async function shareToClipboard() {
-  const shareTextContent = `My MiniFortune today: ${currentFortune} ✨ Try it at https://minifortune.app!`
+  const shareTextContent = `My MiniFortune today: ${currentFortune} ✨ Try it at https://naveen-6802.github.io/minifortune`
 
   try {
     if (navigator.clipboard && navigator.clipboard.writeText) {
